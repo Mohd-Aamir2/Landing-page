@@ -16,6 +16,7 @@ A responsive landing page for Codesoft.
 
 - HTML5
 - CSS3 
+- js
 
 
 ## Getting Started

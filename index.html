@@ -1,109 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- header -->
-    <div class="navebar">
-        <div class="nav-logo border">
-          <div class="logo"></div>
-        </div> >
-        
-        <ul class="nav-links">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Service">Service</a></li>
-            <li><a href="#Product">Product</a></li>
-            <li><a href="#Internship">Internship</a></li>
-            <li><a href="#Job">Jobs</a></li>
-            <li><a href="#verification">Verification</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <li><a href="#about">About Us</a></li>
-        </ul>
-    </div>
-    <!-- Hero section -->
-   
-     <section class="hero">
-        <div class="hero-image"> 
-        <img  class="image" src="bg.jpg">
-         <div class="text-container">
-        <h1>Take Your Career to the Next Level with<span id="codsoft">CodSoft</span> </h1>
-        <h3>Join Our Exciting Internship Journey</h3>
-        <div class="hero-buttons">
-        <button href="#" class="btn">Apply</button>
-        
-    </div>
-       </div>    
-       
-    </div>
-    </section>
-    <!-- About sectio -->
-     <section class="about">
-        <div class="about-us">
-            <h1>Who We Are</h1>
-        <p> 
-            <span class="codesoft">CodSoft</span> are  IT  services  and  IT  consultancy   that  specializes  in  creating  innovative  solutions  for  businesses.  We  are  passionate  about  technology  and  believe  in  the  power  of  software  to  transform  the  world.  Our  internship  program  is  just  one  of  the  ways   in  which  we  are  investing  in  the  future  of  the  industry. 
-        </p>
-            <p>
-                At  <span class="codesoft">CodSoft</span>, we believe practical knowledge is the key to success in the tech industry. Our aim is to help students lacking basic skills by offering hands-on learning through live projects and real-world examples. 
-            </p>
-        </div>
-     </section>
-      <!-- Footer -->
-      <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Contact Info</h3>
-                    <p>Lokenath bose garden lane Kolkata,West Bengal </p>
-                    <p>contact@codsoft.in</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>Useful links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Jobs</a></li>
-                        <li><a href="#">Internship</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Leagl Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Refund policy</a></li>
-                        <li><a href="#">Term and condition</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Our Features</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Email Notification</a></li>
-                        <li><a href="#">Simple Interface</a></li>
-                        <li><a href="#">Tutorials</a></li>
-                        <li><a href="#">Large Community</a></li>
-                        <li><a href="#">Deadline Reminder</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025,  codsoft. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-            </div>
-        </div>
-    </footer>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DataPro</title>
 
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="logo.png" alt="DataPro Logo">
+    <span>DataPro</span>
+  </div>
+
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <nav class="nav-links" id="nav-links">
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <button class="btn">Enroll</button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero fade">
+  <div class="hero-content">
+    <h1>Become a Job-Ready Data Analyst in 60 Days</h1>
+    <p>Learn SQL, Python, Excel & Power BI with real-world projects</p>
+    <button class="cta">Start Free Trial</button>
+  </div>
+  <img src="hero.png" alt="Hero Image">
+</section>
+
+<!-- COURSES -->
+<section class="fade">
+  <h2 style="display: flex; justify-content: center; color: aqua;">Our Popular Courses</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/022/362/574/small/3d-xls-file-icon-illustration-png.png">
+      <h3>Excel Expert</h3>
+      <p>Master advanced Excel, dashboards & automation</p>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/960px-New_Power_BI_Logo.svg.png">
+      <h3>Power BI Master</h3>
+      <p>Build interactive dashboards & business insights</p>
+    </div>
+
+    <div class="card">
+      <img src="https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png">
+      <h3>Python for Data</h3>
+      <p>Learn Python for analysis, automation & ML basics</p>
+    </div>
+
+    <div class="card">
+      <img src="https://png.pngtree.com/png-clipart/20250127/original/pngtree-data-analyst-3d-icon-with-innovative-design-isolated-on-white-background-png-image_20174943.png">
+      <h3>Data Analyst Bootcamp</h3>
+      <p>Complete job-ready program with projects</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- INSTRUCTOR -->
+<section class="fade instructor">
+  <h2 style="color: aquamarine;">Meet Your Instructor</h2>
+  <img src="https://cdn-icons-png.flaticon.com/512/5726/5726778.png" alt="Instructor">
+  <div class="inst" >
+    <h3>Mohd Aamir</h3>
+  <p>Data Analyst | 5+ Years Experience</p>
+  <p>Expert in SQL, Python, Power BI & Web Development</p>
+  </div>
+  
+</section>
+
+<!-- CURRICULUM -->
+<section class="fade">
+  <h2 style="display: flex; justify-content: center; color: aqua;">Course Curriculum</h2>
+  <div class="accordion">
+    <div class="item">
+      <div class="title">Module 1: Basics</div>
+      <div class="content">Excel + Data Fundamentals</div>
+    </div>
+    <div class="item">
+      <div class="title">Module 2: Intermediate</div>
+      <div class="content">SQL + Python</div>
+    </div>
+    <div class="item">
+      <div class="title">Module 3: Advanced</div>
+      <div class="content">Power BI + Dashboards</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="fade">
+  <h2 style="display: flex; justify-content: center; color: aqua;">Pricing</h2>
+  <div class="price">
+    <h1>₹1999</h1>
+    <p>Limited Time Offer</p>
+    <button class="cta">Enroll Now</button>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final fade">
+  <h2>Start Your Tech Career Today</h2>
+  <button class="cta">Join Now</button>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
