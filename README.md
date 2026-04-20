@@ -1,7 +1,7 @@
-# CODSOFT
 
 
-A responsive landing page for Codesoft.
+
+A responsive landing page for Data pro
 
 
 
